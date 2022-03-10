@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+#containrer {
+	padding: 0;
+    margin: 0;
+    max-width: 1280px;
+	display: flex;
+}
+
+#left_content {
+	position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 1000;
+    display: block;
+    padding: 0 20px;
+    overflow: hidden;
+    background-color: #0059ab;
+    width: 210px;
+    height: auto;
+}
+
+#center_content {
+	background-color: pink;
+	width: 1000px;
+	height: 1000px;
+    position: absolute;
+    left: 250px;
+}
