@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+body {
+	background-color: #f8f8f8;
+}
+
+#left {
+	background-color: #0059ab;
+	height: auto;
+	text-align: center;
+}
+
+#left_top {
+	display: inline-block;
+	text-align: center;	
+	margin-top: 15px;
+	width: 165px;
+	height: 50px;
+}
+
+#login_box {
+	display: inline-block;
+	width: 170px;
+	height: 165px;
+	margin-top: 20px;
+	text-align: center;
+}
+
+#session_login {
+	display: inline-block;
+	width: 170px;
+	height: 170px;
+	margin-top: 20px;
+	text-align: center;
+	border: 1px solid #f8f8f8;
+}
+
+#session_box {
+	margin-top: 15px;
+}
+
+#logout_button {
+	margin-top: 25px;
+}
+
+#board_list {
+	margin-top: 20px;	
+}
+
+#left_navbar {
+	margin-top: 20px;
+	color: white;
+}
+
+.list-group-item {
+	font-size: 10px;
+}
+
+.bi {
+	color: blue;
+}
+
+#right {
+	margin-top: 30px;
+}
+
+#footer {
+	background-color: 0062b6;
+}
+
